@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  line-height: 0;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid rgb(230, 230, 230);
+}
+
+.is-danger {
+  border: 1px solid #e0004f;
+  background-color: #da254c;
+  color: #ffff;
+}
+
+.listBtn {
+  border: 1px solid #4c15b2;
+  background-color: #6425da;
+  color: #ffff;
+}
+
+ul {
+  display: inline;
+}
+li {
+  padding: 0.6rem 1rem;
+  background-color: rgb(241, 241, 241);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #242424;
+}
