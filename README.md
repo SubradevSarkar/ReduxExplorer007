@@ -53,11 +53,10 @@ Once the store is created, we can make it available to our React components by p
     import { store } from './app/store'
     import { Provider } from 'react-redux'  
 	
-	ReactDOM.render( 
+	ReactDOM.createRoot(document.getElementById("root")).render( 
 	    <Provider store={store}>
 		   <App />
-		</Provider>,
-		document.getElementById('root')
+	    </Provider>
 	)
 
 ##  4. Create a Redux State Slice
