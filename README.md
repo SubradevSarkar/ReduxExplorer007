@@ -11,9 +11,9 @@ link to follow:--- [React.js](https://react.dev/) and [Redux](https://redux-tool
 
 
 
-## 1. install RTK
+## 1. install RTK & Redux
 
-**Install Redux Toolkit and React-Redux**
+Install **Redux Toolkit** and **React-Redux**
 Add the Redux Toolkit and React-Redux packages to your project:
 
     npm install @reduxjs/toolkit react-redux
